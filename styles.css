@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #2D3748;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #63B3ED;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+#self{
+    border-radius: 50%;
+}
+
+#HeaderText{
+    text-align:center;
+}
+
+.blog_img{
+    float:right;
+    padding-left: 5px;
+}
+
+.blog_img2{
+    float:left;
+    padding-right: 5px;
+}
+
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+h2{
+    font-size:32px;
+    color: #48BB78;
+}
+
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #48BB78
+}
+
+#AboutMeHeading{
+    color:#000000;
+}
+
+#AboutMe{
+    background-color:#E2E8F0;
+    padding: 15px;
+}
+
+#blog_date{
+    color:#718096;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: #4299E1;
+    text-decoration: none;
+}
+
+footer{
+    background-color: #2C5282;
+    color: #FFFFFF;
+    padding: 15px;
+}
+
+footer p{
+    padding-inline-start: 50px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+}
+
+#Header{
+    grid-column: 1/4;
+    grid-row:1;
+}
+
+#Main{
+    grid-column: 1/3;
+    grid-row: 2;
+    padding: 80px;
+    padding-top: 40px;
+}
+
+#Side{
+    grid-column: 3;
+    grid-row: 2/3;
+    padding: 40px;
+    padding-right: 80px;
+}
+
+#Footer{
+    grid-column: 1/4;
+    grid-row: 3;
+}
